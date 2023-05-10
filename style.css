@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.header {
+    background-color: #9DC08B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+
+#header-p{
+
+color: #820000;
+
+}
+.link1{
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+   
+}
+.header ul li {
+    list-style: none;
+    
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #820000;
+}
+.main{
+    background-color:#F6FFDE ;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.para{
+color: white;
+text-align: center;
+background-color: darkred;
+margin: 50px;
+padding-top: 35px;
+padding-bottom: 30px;
+
+font-size: larger;
+}
+.image1{
+    border-radius: 20%;
+}
+.footer {
+    height: 40px;
+    background-color: #9DC08B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 5px;
+    color: #820000;
+}
+.about-p{
+    background-color:#F6FFDE ;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;  
+    align-items: center;
+
+}
+.about-para{
+    color: white;
+    text-align: left;
+    background-color: darkred;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    font-size: larger;
+}
+
+.menu{
+    background-color:#F6FFDE ;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;  
+ 
+
+}
+.menu p{
+color: black;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 30px;
+align-items: center;
+}
+.h2-art{
+    padding-top: 30px;  
+    padding-left: 10px;
+}
+.para1{
+    padding-top: 10px;
+}
+.branch-p{
+    background-color:#F6FFDE ;
+    padding-top: 30px;
+    padding-left: 15px;
+    text-align: center;
+}
+.branch-pa{
+    background-color:#F6FFDE ;
+    min-height: calc(100vh - 120px); 
+    padding-top: 30px;
+    padding-left: 15px;
+    text-align: center;
+}
+.contact-para{
+    background-color:#F6FFDE ;
+    padding-left: 20px;
+   
+}
+.form{
+    border-radius: 10px;
+        background: #9DC08B;
+        color: black;
+        width: 600px;
+        padding: 20px;
+        
+}
+.main-con{
+    background-color:#F6FFDE ;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
